@@ -1,0 +1,11 @@
+:host {
+  display: block;
+}
+
+.start {
+  color: blue;
+}
+
+.end {
+  color: red;
+}
