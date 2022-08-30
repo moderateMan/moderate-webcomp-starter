@@ -1,0 +1,71 @@
+Arguments: 
+  /Users/johnlee/.nvm/versions/node/v16.17.0/bin/node /Users/johnlee/.nvm/versions/node/v16.17.0/bin/yarn
+
+PATH: 
+  /Users/johnlee/.nvm/versions/node/v16.17.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/johnlee/.nvm/versions/node/v16.17.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/johnlee/.cargo/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/johnlee/Library/Caches/Yarn/v6/npm-has-flag-4.0.0-944771fd9c81c81265c4d6941860da06bb59479b-integrity/node_modules/has-flag/license' -> '/Users/johnlee/workSpace/study/test/node_modules/jest-worker/node_modules/has-flag/license'
+
+npm manifest: 
+  {
+    "name": "react-templae",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.config.js --open"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@babel/cli": "^7.14.5",
+      "@babel/core": "^7.14.6",
+      "@babel/preset-env": "^7.14.7",
+      "@babel/preset-react": "^7.14.5",
+      "@babel/preset-typescript": "^7.14.5",
+      "@stencil/core": "^2.17.4",
+      "antd": "^4.22.6",
+      "axios": "^0.27.2",
+      "babel-loader": "^8.2.2",
+      "clean-webpack-plugin": "^4.0.0-alpha.0",
+      "cross-env": "^7.0.3",
+      "css-loader": "^6.1.0",
+      "file-loader": "^6.2.0",
+      "html-webpack-plugin": "^5.3.2",
+      "less": "^4.1.1",
+      "less-loader": "^10.0.1",
+      "mobx": "^6.6.1",
+      "mobx-react": "^7.5.2",
+      "mobx-react-lite": "^3.4.0",
+      "moderate-webcomp-starter": "^0.0.2",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-router-dom": "^6.2.2",
+      "style-loader": "^3.1.0",
+      "typescript": "^4.3.5",
+      "webpack": "^5.45.1",
+      "webpack-cli": "3.3.12",
+      "webpack-dev-server": "^3.11.2"
+    },
+    "devDependencies": {
+      "@types/react": "^17.0.14",
+      "@types/react-dom": "^17.0.9"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
