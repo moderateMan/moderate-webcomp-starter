@@ -49,7 +49,7 @@
     (n.o = function (e, t) {
       return Object.prototype.hasOwnProperty.call(e, t);
     }),
-    (n.p = '/'),
+    (n.p = '/moderate-webcomp-starter/'),
     n((n.s = 0));
 })({
   '++zV': function (e, t, n) {
@@ -7102,7 +7102,7 @@
         return a;
       });
     var r = n('YS25'),
-      o = { basename: '/' };
+      o = { basename: '/moderate-webcomp-starter' };
     window.routerBase && (o.basename = window.routerBase);
     var a = Object({ NODE_ENV: 'production' }).__IS_SERVER
         ? null
@@ -39990,7 +39990,7 @@
   },
   q3YX: function (e) {
     e.exports = JSON.parse(
-      '{"menus":{"zh-CN":{"/components":[{"title":"\u7ec4\u4ef6","path":"/components","meta":{},"children":[{"path":"/components/moderate-info","title":"moderate-info","meta":{}},{"path":"/components/moderate-slot","title":"moderate-slot","meta":{}}]}],"/getting-started":[{"path":"/getting-started","title":"\u5feb\u901f\u4e0a\u624b","meta":{}}],"/help":[{"path":"/help","title":"\u5e2e\u52a9","meta":{}}],"*":[{"path":"/","title":"Hello dumi!","meta":{}}]}},"locales":[{"name":"zh-CN","label":"\u4e2d\u6587"}],"navs":{"zh-CN":[{"title":"\u5feb\u901f\u4e0a\u624b","order":1,"path":"/getting-started"},{"title":"\u7ec4\u4ef6","order":2,"path":"/components"},{"path":"/help","title":"\u5e2e\u52a9"}]},"title":"Moderate WebComp","logo":"/images/logo.png","mode":"site","repository":{"url":"https://github.com/ionic-team/stencil-component-starter","branch":"master"},"theme":{}}',
+      '{"menus":{"zh-CN":{"/components":[{"title":"\u7ec4\u4ef6","path":"/components","meta":{},"children":[{"path":"/components/moderate-info","title":"moderate-info","meta":{}},{"path":"/components/moderate-slot","title":"moderate-slot","meta":{}}]}],"/getting-started":[{"path":"/getting-started","title":"\u5feb\u901f\u4e0a\u624b","meta":{}}],"/help":[{"path":"/help","title":"\u5e2e\u52a9","meta":{}}],"*":[{"path":"/","title":"Hello dumi!","meta":{}}]}},"locales":[{"name":"zh-CN","label":"\u4e2d\u6587"}],"navs":{"zh-CN":[{"title":"\u5feb\u901f\u4e0a\u624b","order":1,"path":"/getting-started"},{"title":"\u7ec4\u4ef6","order":2,"path":"/components"},{"path":"/help","title":"\u5e2e\u52a9"}]},"title":"Moderate WebComp","logo":"/images/logo.png","mode":"site","repository":{"url":"https://github.com/ionic-team/stencil-component-starter","branch":"master"},"theme":{},"exportStatic":{}}',
     );
   },
   qHiR: function (e, t, n) {},

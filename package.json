@@ -33,7 +33,8 @@
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
-    "create:comp": "stencil generate"
+    "create:comp": "stencil generate",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@stencil/core": "^2.13.0",
@@ -43,6 +44,7 @@
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "dumi": "^1.0.13",
+    "gh-pages": "^4.0.0",
     "jest": "^27.4.5",
     "jest-cli": "^27.4.5",
     "lint-staged": "^10.0.7",
