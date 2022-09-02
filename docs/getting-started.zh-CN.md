@@ -1,7 +1,7 @@
 ---
 nav:
   title: 快速上手
-  order: 2
+  order: 1
 ---
 
 # 快速上手

@@ -1,7 +1,7 @@
 ---
 hero:
-  title: Site Name
-  desc: dumi site app example
+  title: Moderate Webcomp
+  desc: Moderate Webcomp
   actions:
     - text: Getting Started
       link: /getting-started
@@ -18,4 +18,4 @@ features:
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
 
-## Hello dumi!
+## Hello moderate-webcomp!

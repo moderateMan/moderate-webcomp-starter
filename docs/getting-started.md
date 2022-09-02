@@ -1,7 +1,7 @@
 ---
 nav:
   title: Getting Started
-  order: 1
+  order: 3
 ---
 
 # Getting Started

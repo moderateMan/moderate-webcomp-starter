@@ -5,8 +5,7 @@ group:
   path: /components
 nav:
   title: 组件
-  path: /components
-  order: 2
+  order: 6
 ---
 
 # moderate-info
