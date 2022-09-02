@@ -1,13 +1,11 @@
 {
-  "name": "moderate-webcomp-starter",
-  "version": "0.0.3",
+  "private": true,
+  "name": "moderate-webcomp",
+  "version": "0.1.1",
   "description": "moderate webcomp starter",
   "main": "dist/components/index.js",
   "module": "dist/components/index.js",
   "types": "dist/components/index.d.ts",
-  "collection": "dist/collection/collection-manifest.json",
-  "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/webcomp-starter/webcomp-starter.esm.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ionic-team/stencil-component-starter.git"
@@ -15,7 +13,22 @@
   "files": [
     "dist/"
   ],
+  "typings": "dist/components/index.d.ts",
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
   "scripts": {
+    "doc": "dumi dev",
+    "build:doc": "dumi build",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
@@ -24,13 +37,17 @@
   },
   "dependencies": {
     "@stencil/core": "^2.13.0",
+    "moderate-webcomp-starter": "^0.1.0",
     "react": "^18.2.0"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
+    "dumi": "^1.0.13",
     "jest": "^27.4.5",
     "jest-cli": "^27.4.5",
-    "puppeteer": "^10.0.0"
-  },
-  "license": "MIT"
+    "lint-staged": "^10.0.7",
+    "prettier": "^2.2.1",
+    "puppeteer": "^10.0.0",
+    "yorkie": "^2.0.0"
+  }
 }

@@ -1,26 +1,23 @@
-dist/
-www/
-loader/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-*~
-*.sw[mnpcod]
-*.log
-*.lock
-*.tmp
-*.tmp.*
-log.txt
-*.sublime-project
-*.sublime-workspace
+# dependencies
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+/yarn.lock
+/package-lock.json
 
-.stencil/
-.idea/
-.vscode/
-.sass-cache/
-.versions/
-node_modules/
-$RECYCLE.BIN/
+# production
+/dist
 
+# misc
 .DS_Store
-Thumbs.db
-UserInterfaceState.xcuserstate
-.env
+
+# umi
+.umi
+.umi-production
+.env.local
+
+# ide
+/.vscode
+/.idea
