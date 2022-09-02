@@ -22974,6 +22974,16 @@
           o.a.createElement(
             'div',
             { className: 'markdown' },
+            o.a.createElement(
+              'h1',
+              { id: '\u5e2e\u52a9' },
+              o.a.createElement(
+                a['AnchorLink'],
+                { to: '#\u5e2e\u52a9', 'aria-hidden': 'true', tabIndex: -1 },
+                o.a.createElement('span', { className: 'icon icon-link' }),
+              ),
+              '\u5e2e\u52a9',
+            ),
             o.a.createElement('p', null, 'Balabala...'),
           ),
         );
@@ -23731,13 +23741,17 @@
             { className: 'markdown' },
             o.a.createElement(
               'h2',
-              { id: 'hello-dumi' },
+              { id: 'hello-moderate-webcomp' },
               o.a.createElement(
                 a['AnchorLink'],
-                { to: '#hello-dumi', 'aria-hidden': 'true', tabIndex: -1 },
+                {
+                  to: '#hello-moderate-webcomp',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
                 o.a.createElement('span', { className: 'icon icon-link' }),
               ),
-              'Hello dumi!',
+              'Hello moderate-webcomp!',
             ),
           ),
         );
@@ -39990,7 +40004,7 @@
   },
   q3YX: function (e) {
     e.exports = JSON.parse(
-      '{"menus":{"zh-CN":{"/components":[{"title":"\u7ec4\u4ef6","path":"/components","meta":{},"children":[{"path":"/components/moderate-info","title":"moderate-info","meta":{}},{"path":"/components/moderate-slot","title":"moderate-slot","meta":{}}]}],"/getting-started":[{"path":"/getting-started","title":"\u5feb\u901f\u4e0a\u624b","meta":{}}],"/help":[{"path":"/help","title":"\u5e2e\u52a9","meta":{}}],"*":[{"path":"/","title":"Hello dumi!","meta":{}}]}},"locales":[{"name":"zh-CN","label":"\u4e2d\u6587"}],"navs":{"zh-CN":[{"title":"\u5feb\u901f\u4e0a\u624b","order":1,"path":"/getting-started"},{"title":"\u7ec4\u4ef6","order":2,"path":"/components"},{"path":"/help","title":"\u5e2e\u52a9"}]},"title":"Moderate WebComp","logo":"/images/logo.png","mode":"site","repository":{"url":"https://github.com/ionic-team/stencil-component-starter","branch":"master"},"theme":{},"exportStatic":{}}',
+      '{"menus":{"zh-CN":{"/components":[{"title":"\u7ec4\u4ef6","path":"/components","meta":{},"children":[{"path":"/components/moderate-info","title":"moderate-info","meta":{}},{"path":"/components/moderate-slot","title":"moderate-slot","meta":{}}]}],"/getting-started":[{"path":"/getting-started","title":"\u5feb\u901f\u4e0a\u624b","meta":{}}],"/help":[{"path":"/help","title":"\u5e2e\u52a9","meta":{}}],"*":[{"path":"/","title":"Hello moderate-webcomp!","meta":{}}]}},"locales":[{"name":"zh-CN","label":"\u4e2d\u6587"}],"navs":{"zh-CN":[{"title":"\u5feb\u901f\u4e0a\u624b","order":1,"path":"/getting-started"},{"title":"\u7ec4\u4ef6","order":2,"path":"/components"},{"title":"\u5e2e\u52a9","path":"/help"}]},"title":"Moderate WebComp","logo":"/moderate-webcomp-starter/images/logo.png","mode":"site","repository":{"url":"https://github.com/ionic-team/stencil-component-starter","branch":"master"},"theme":{},"exportStatic":{}}',
     );
   },
   qHiR: function (e, t, n) {},
@@ -42697,7 +42711,7 @@
               exact: !0,
               meta: {
                 filePath: 'docs/getting-started.md',
-                updatedTime: 1662098631e3,
+                updatedTime: 1662101279e3,
                 nav: {
                   title: 'Getting Started',
                   order: 3,
@@ -42739,7 +42753,7 @@
               exact: !0,
               meta: {
                 filePath: 'docs/getting-started.zh-CN.md',
-                updatedTime: 1662098631e3,
+                updatedTime: 1662101279e3,
                 nav: {
                   title: '\u5feb\u901f\u4e0a\u624b',
                   order: 1,
@@ -42787,12 +42801,14 @@
               exact: !0,
               meta: {
                 filePath: 'docs/help.md',
-                updatedTime: 1662097629e3,
-                slugs: [],
-                nav: { path: '/help', title: '\u5e2e\u52a9' },
-                title: 'Help',
+                updatedTime: 1662101279e3,
+                nav: { title: '\u5e2e\u52a9', path: '/help' },
+                slugs: [
+                  { depth: 1, value: '\u5e2e\u52a9', heading: '\u5e2e\u52a9' },
+                ],
+                title: '\u5e2e\u52a9',
               },
-              title: 'Help - Moderate WebComp',
+              title: '\u5e2e\u52a9 - Moderate WebComp',
             },
             {
               path: '/help',
@@ -42800,7 +42816,7 @@
               exact: !0,
               meta: {
                 filePath: 'docs/help.zh-CN.md',
-                updatedTime: 1662097629e3,
+                updatedTime: 1662101279e3,
                 nav: { title: '\u5e2e\u52a9', path: '/help' },
                 slugs: [
                   { depth: 1, value: '\u5e2e\u52a9', heading: '\u5e2e\u52a9' },
@@ -42816,7 +42832,7 @@
               exact: !0,
               meta: {
                 filePath: 'docs/index.md',
-                updatedTime: 1662098631e3,
+                updatedTime: 1662101279e3,
                 hero: {
                   title: 'Moderate Webcomp',
                   desc: '<div class="markdown"><p>Moderate Webcomp</p></div>',
@@ -42860,7 +42876,7 @@
               exact: !0,
               meta: {
                 filePath: 'docs/index.zh-CN.md',
-                updatedTime: 1662097629e3,
+                updatedTime: 1662101279e3,
                 hero: {
                   title: 'Site Name',
                   desc: '<div class="markdown"><p>dumi site app \u811a\u624b\u67b6</p></div>',
@@ -42891,12 +42907,16 @@
                 footer:
                   '<div class="markdown"><p>Open-source MIT Licensed | Copyright \xa9 2020<br />Powered by <a href="https://d.umijs.org/" target="_blank">dumi<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="__dumi-default-external-link-icon"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div>',
                 slugs: [
-                  { depth: 2, value: 'Hello dumi!', heading: 'hello-dumi' },
+                  {
+                    depth: 2,
+                    value: 'Hello moderate-webcomp!',
+                    heading: 'hello-moderate-webcomp',
+                  },
                 ],
-                title: 'Hello dumi!',
+                title: 'Hello moderate-webcomp!',
                 locale: 'zh-CN',
               },
-              title: 'Hello dumi! - Moderate WebComp',
+              title: 'Hello moderate-webcomp! - Moderate WebComp',
             },
             {
               path: '/components',
